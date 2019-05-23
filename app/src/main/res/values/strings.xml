@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">FootballMatch</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello Fragment Prev</string>
+    <string name="fragment_next">Fragment_Next</string>
+    <string name="liga_inggris">Liga Inggris</string>
+    <string name="tanggal_pertandingan">Tanggal Pertandingan</string>
+    <string name="club_team_home">Club Team Home</string>
+    <string name="vs">VS</string>
+    <string name="club_team_away">Club Team Away</string>
+    <string name="search">Search</string>
+    <string name="score_home">Score Home</string>
+    <string name="score_away">Score Away</string>
+    <string name="detail_pertandingan">DETAIL PERTANDINGAN</string>
+    <string name="nama_kedua_team">Nama kedua Team</string>
+    <string name="goals_teams_home">Goals Teams Home</string>
+    <string name="goals">GOALS</string>
+    <string name="kiper">Kiper</string>
+    <string name="bek">Bek</string>
+    <string name="gelandang">Gelandang</string>
+    <string name="penyerang">Penyerang</string>
+    <string name="pemain_pengganti">Pengganti</string>
+    <string name="pertandingan">PERTANDINGAN</string>
+    <string name="kosong">-</string>
+    <string name="nama_liga">Nama Liga</string>
+
+    <string-array name="ligaName">
+        <item>Liga Inggris</item>
+        <item>Liga Francis</item>
+        <item>Liga Jerman</item>
+        <item>Liga Italy</item>
+        <item>Liga Spanyol</item>
+        <item>Liga America</item>
+        <item>Liga Portugal</item>
+        <item>Liga Australia</item>
+        <item>Liga Primer Skotlandia</item>
+        <item>Liga Inggris Championsip</item>
+    </string-array>
+    <array name="liga_image">
+        <item>@drawable/img_liga_inggris</item>
+        <item>@drawable/img_liga_prancis</item>
+        <item>@drawable/img_liga_jerman</item>
+        <item>@drawable/img_liga_italy</item>
+        <item>@drawable/img_liga_spanyol</item>
+        <item>@drawable/img_liga_america</item>
+        <item>@drawable/img_liga_portugis</item>
+        <item>@drawable/img_liga_australia</item>
+        <item>@drawable/img_liga_scotlan</item>
+        <item>@drawable/img_liga_championsip</item>
+    </array>
+    <string-array name="id_liga">
+        <item>4328</item>
+        <item>4484</item>
+        <item>4331</item>
+        <item>4332</item>
+        <item>4335</item>
+        <item>4346</item>
+        <item>4344</item>
+        <item>4356</item>
+        <item>4395</item>
+        <item>4396</item>
+
+    </string-array>
+</resources>

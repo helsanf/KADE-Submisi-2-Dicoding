@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".nextmatch.FragmentNext">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+        <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_search"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_weight="1"
+                app:layout_scrollFlags="scroll|enterAlways" />
+
+
+    <ProgressBar android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:id="@+id/progressNext"
+                 android:foregroundGravity="center"/>
+    <com.mlsdev.animatedrv.AnimatedRecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:animationDuration="400"
+            app:layoutAnimation="@anim/layout_animation_from_bottom"
+            app:layoutManagerOrientation="vertical"
+            app:layoutManagerReverse="false"
+            app:layoutManagerType="linear"
+            android:id="@+id/rv_next"/>
+
+</FrameLayout>
